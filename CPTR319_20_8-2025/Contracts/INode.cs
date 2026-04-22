@@ -33,6 +33,6 @@
         double Purity();
 
         /// True if Left and Right are null, False if Left and Right are not null, error otherwise. 
-        bool isLeafNode();
+        bool IsLeafNode();
     }
 }
