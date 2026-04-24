@@ -44,7 +44,7 @@ namespace CPTR319_20_8_2025
         /// See INode documentation.
         /// </summary>
         /// <returns>True if leaf or false if not.</returns>
-        public bool isLeafNode()
+        public bool IsLeafNode()
         {
             return (Left is null) && (Right is null);
         }
