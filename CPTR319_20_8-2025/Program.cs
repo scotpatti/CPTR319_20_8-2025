@@ -46,7 +46,7 @@ public class Program
         if (node is null) return;
         else
         {
-            if (node.isLeafNode())
+            if (node.IsLeafNode())
             {
                 Console.WriteLine(indent + "+- " + node.UnClassifiedList.ToSpacedString());
                 indent += "   ";
